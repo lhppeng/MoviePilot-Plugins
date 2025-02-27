@@ -14,7 +14,7 @@ from app.schemas.types import EventType, NotificationType
 from app.utils.http import RequestUtils
 
 
-class GotifyMsg(_PluginBase):
+class GotifyMsgLhp(_PluginBase):
     # 插件名称
     plugin_name = "gotify消息通知"
     # 插件描述
@@ -28,7 +28,7 @@ class GotifyMsg(_PluginBase):
     # 作者主页
     author_url = "https://github.com/lethargicScribe"
     # 插件配置项ID前缀
-    plugin_config_prefix = "gotifymsg_"
+    plugin_config_prefix = "gotifymsglhp_"
     # 加载顺序
     plugin_order = 25
     # 可使用的用户级别
