@@ -24,7 +24,7 @@ class GotifyMsgLhp(_PluginBase):
     # 插件版本
     plugin_version = "1.1"
     # 插件作者
-    plugin_author = "lethargicScribe"
+    plugin_author = "lhp"
     # 作者主页
     author_url = "https://github.com/lethargicScribe"
     # 插件配置项ID前缀
